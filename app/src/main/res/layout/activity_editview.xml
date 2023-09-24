@@ -1,0 +1,37 @@
+<!-- activity_view.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".EditViewActivity">
+
+    <TextView
+        android:id="@+id/TxtEditView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5px"
+        android:text="Click over a movie to update the movie data"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listViewMovies"
+        android:layout_width="395dp"
+        android:layout_height="715dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnViewBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Back" />
+
+</RelativeLayout>
+
